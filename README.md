@@ -21,7 +21,7 @@ Build-Befehl, Ausgabeordner `/`).
 
 ## Anpassen
 
-- **Adresse der App:** steht als `https://app.kicktime2028.de` in `index.html`.
+- **Adresse der App:** steht als `https://kicktime2028.ben-online35.workers.dev` in allen Seiten (bis zur eigenen Domain).
 - **Kontaktformular:** wird über Formspree (`action` des Formulars in `index.html`) per E-Mail
   zugestellt.
 - **App-Screenshots:** in `assets/img/` (WebP, 390 × 844 bzw. doppelte Auflösung).
