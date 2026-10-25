@@ -13,11 +13,12 @@ assets/css/         Gestaltung (Farben und Schriften wie in der App, hell/dunkel
 assets/js/main.js   Handy-Menü, Einblendungen, Formular ohne Seitenwechsel
 assets/fonts/       Inter, Barlow Condensed – lokal, keine Google Fonts
 assets/img/         Logo und App-Screenshots
-_headers            Sicherheits- und Cache-Header (Cloudflare Pages / Netlify)
+_headers            Sicherheits- und Cache-Header (CSP mit Hash des Inline-Skripts)
+.assetsignore       Dateien, die nicht ausgeliefert werden (AGENTS.md, CLAUDE.md, README.md)
 ```
 
-Kein Build-Schritt nötig: Der Ordner wird so ausgeliefert, wie er ist (z. B. Cloudflare Pages ohne
-Build-Befehl, Ausgabeordner `/`).
+Kein Build-Schritt nötig: Der Ordner wird so ausgeliefert, wie er ist – als Cloudflare-Worker
+`kicktime2028-landingpage` (statische Dateien), jeder Push auf `main` geht automatisch live.
 
 ## Anpassen
 

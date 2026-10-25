@@ -1,4 +1,4 @@
-# Cloudflare Pages / Netlify: Sicherheits- und Cache-Header
+# Cloudflare (statische Dateien): Sicherheits- und Cache-Header
 /*
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-K1z9k0NoRK2sHAKQ2bRmqGBRaJwUbbL6bUQazKFx9kU='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io mailto:; frame-ancestors 'none'; base-uri 'self'; object-src 'none'
   X-Content-Type-Options: nosniff
